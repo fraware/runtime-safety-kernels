@@ -473,9 +473,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/runtime-safety-kernels/runtime-safety-kernels?style=social)](https://github.com/runtime-safety-kernels/runtime-safety-kernels)
-[![GitHub forks](https://img.shields.io/github/forks/runtime-safety-kernels/runtime-safety-kernels?style=social)](https://github.com/runtime-safety-kernels/runtime-safety-kernels)
-[![GitHub issues](https://img.shields.io/github/issues/runtime-safety-kernels/runtime-safety-kernels)](https://github.com/runtime-safety-kernels/runtime-safety-kernels/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/runtime-safety-kernels/runtime-safety-kernels)](https://github.com/runtime-safety-kernels/runtime-safety-kernels/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/runtime-safety-kernels?style=social)](https://github.com/runtime-safety-kernels)
+[![GitHub forks](https://img.shields.io/github/forks/runtime-safety-kernels?style=social)](https://github.com/runtime-safety-kernels)
+[![GitHub issues](https://img.shields.io/github/issues/runtime-safety-kernels/)](https://github.com/runtime-safety-kernels/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/runtime-safety-kernels)](https://github.com/runtime-safety-kernels/pulls)
 
 </div>
