@@ -1,0 +1,78 @@
+# Lean build artifacts
+lake-manifest.json
+lakefile.olean
+*.olean
+*.olean.d
+*.olean.c
+*.olean.h
+*.olean.o
+*.olean.a
+*.olean.so
+*.olean.dll
+*.olean.exe
+
+# Lake build directory
+build/
+
+# Extracted code
+src/extracted/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test artifacts
+test-results/
+coverage/
+
+# Benchmark results
+benchmark-results/
+
+# Fuzzing artifacts
+fuzz-output/
+afl-output/
+
+# Binary artifacts
+*.so
+*.a
+*.dll
+*.exe
+rsk-static
+librsk.*
+
+# Rust artifacts
+target/
+Cargo.lock
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Documentation build
+docs/_build/
+site/
+
+# Release artifacts
+dist/
+*.tar.gz
+*.zip 
