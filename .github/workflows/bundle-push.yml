@@ -1,0 +1,49 @@
+name: Bundle Push
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Lean
+        uses: leanprover-community/setup-lean@v4
+        with:
+          lean-version: v4.8.0
+
+      - name: Install dependencies
+        run: |
+          lake update
+          lake build
+
+      - name: Extract kernels
+        run: |
+          lake exe sampler_c
+          lake exe policy_c
+          lake exe tensor_c
+          lake exe concurrency_rust
+
+      - name: Build bundle
+        run: |
+          mkdir -p bundle
+          cp -r src/extracted/* bundle/
+          cp -r docs/* bundle/
+          cp README.md bundle/
+          cp LICENSE bundle/
+
+      - name: Create bundle archive
+        run: |
+          tar -czf runtime-safety-kernels-bundle.tar.gz -C bundle .
+
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: runtime-safety-kernels-bundle
+          path: runtime-safety-kernels-bundle.tar.gz
+          retention-days: 30
