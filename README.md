@@ -9,12 +9,12 @@
 
 **State-of-the-art runtime safety components for AI model inference with formal proofs, ultra-low latency, and guaranteed correctness.**
 
-[![Performance](https://img.shields.io/badge/Performance-4M%20tokens%2Fs-brightgreen)](https://github.com/runtime-safety-kernels)
-[![Binary Size](https://img.shields.io/badge/Binary%20Size-≤400KB-blue)](https://github.com/runtime-safety-kernels)
-[![Latency](https://img.shields.io/badge/Latency-<250μs-orange)](https://github.com/runtime-safety-kernels)
-[![Coverage](https://img.shields.io/badge/Coverage-100%25-red)](https://github.com/runtime-safety-kernels)
+[![Performance](https://img.shields.io/badge/Performance-4M%20tokens%2Fs-brightgreen)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
+[![Binary Size](https://img.shields.io/badge/Binary%20Size-≤400KB-blue)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
+[![Latency](https://img.shields.io/badge/Latency-<250μs-orange)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
+[![Coverage](https://img.shields.io/badge/Coverage-100%25-red)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
 
-[Documentation](https://github.com/runtime-safety-kernels/docs) • [API Reference](docs/api.md) • [Contributing](CONTRIBUTING.md) • [Discussions](https://github.com/runtime-safety-kernels/discussions)
+[Documentation](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernelsdocs) • [API Reference](docs/api.md) • [Contributing](CONTRIBUTING.md) • [Discussions](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels/discussions)
 
 </div>
 
@@ -154,7 +154,7 @@ Go 1.21+             # Go bindings
 
 ```bash
 # Clone repository
-git clone https://github.com/runtime-safety-kernels/runtime-safety-kernels.git
+git clone https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels.git
 cd runtime-safety-kernels
 
 # Initialize and build
@@ -206,7 +206,7 @@ result = tensor.add(other_tensor)  # Compile-time validation
 ### Go (CGO)
 
 ```go
-import "github.com/runtime-safety-kernels/go"
+import "https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels/go"
 
 // Sampling with Go bindings
 logits := []float32{1.0, 2.0, 3.0, 4.0, 5.0}
@@ -423,7 +423,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Fork and clone
-git clone https://github.com/your-username/runtime-safety-kernels.git
+git clone https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels.git
 cd runtime-safety-kernels
 
 # Install dependencies
@@ -473,9 +473,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/fraware/runtime-safety-kernels?style=social)](https://github.com/fraware/runtime-safety-kernels)
-[![GitHub forks](https://img.shields.io/github/forks/fraware/runtime-safety-kernels?style=social)](https://github.com/fraware/runtime-safety-kernels)
-[![GitHub issues](https://img.shields.io/github/issues/fraware/runtime-safety-kernels)](https://github.com/fraware/runtime-safety-kernels/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/fraware/runtime-safety-kernels)](https://github.com/fraware/runtime-safety-kernels/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/SentinelOps-Remote-CI/runtime-safety-kernels?style=social)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
+[![GitHub forks](https://img.shields.io/github/forks/SentinelOps-Remote-CI/runtime-safety-kernels?style=social)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels)
+[![GitHub issues](https://img.shields.io/github/issues/SentinelOps-Remote-CI/runtime-safety-kernels)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/SentinelOps-Remote-CI/runtime-safety-kernels)](https://github.com/SentinelOps-Remote-CI/runtime-safety-kernels/pulls)
 
 </div>
